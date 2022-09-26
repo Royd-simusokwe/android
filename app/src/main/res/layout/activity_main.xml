@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B693F4"
+    android:backgroundTint="#B693F4"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="478dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="50dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="232dp"
+        android:layout_height="48dp"
+        android:background="#B693F4"
+        android:backgroundTint="#B693F4"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Forgot Password?"
+        android:textColor="#051DA5"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="554dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="273dp"
+        android:layout_height="48dp"
+        android:background="@color/purple_500"
+        android:ems="10"
+        android:hapticFeedbackEnabled="true"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:textColorHint="#FAF7F7"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="273dp"
+        android:layout_height="48dp"
+        android:background="@color/purple_500"
+        android:ems="10"
+        android:hint="Username@Example.Com"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="10dp"
+        android:textColorHint="#FAF7F7"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember Me"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="412dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

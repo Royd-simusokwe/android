@@ -1,0 +1,82 @@
+.learn {
+    display: flex;
+    justify-content: centr;
+    align-items: center;
+    flex-direction: column;
+    grid-template-columns: 1fr, 1fr;
+    margin-top: 2px;
+}
+
+input {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background-color: rgb(233, 227, 227);
+    border: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 50%;
+}
+
+input:nth-child(3) {
+    display: inline;
+    text-align: center;
+    color: white;
+    background-color: blue;
+    width: 10%;
+    height: 30px;
+    padding: 10px;
+    margin: 5px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-family: verdana;
+    font-size: small;
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+.main-roy {
+    margin-bottom: 0px;
+}
+
+hr {
+    background-color: black;
+    width: 45%;
+}
+
+.main-footer {
+    /* border-top: 1px solid gray; */
+    padding: 5px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    color: blue
+}
+
+#footer-dd {
+    align-items: flex-start;
+}
+
+#roy {
+    color: white;
+    background-color: green;
+    text-align: center;
+    margin-top: 0%;
+    padding-left: 15%;
+    padding-right: 15%;
+}

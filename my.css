@@ -1,0 +1,12 @@
+ * {
+     background-color: powderblue;
+     margin: 10px 0px 10px 20px;
+     display: ;
+ }
+ 
+ li {
+     list-style: square;
+     /* align-self: center; */
+ }
+ 
+ input {}
